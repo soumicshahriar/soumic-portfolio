@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  font-family: 'Open Sans';
+}
+
+/* header and navigation title */
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+.text-primary {
+  color: #FD6E0A;
+}
+
+/* to keep same line */
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 200px;
+}
+
+/* to remove cercle */
+nav li {
+  list-style: none;
+  margin: 50px;
+}
+
+/* to keep ul chield in a same line */
+nav ul {
+  display: flex;
+  align-items: center;
+
+}
+
+/* To work with button */
+.btn-primary {
+  height: 64px;
+  background: #FD6E0A;
+  border-radius: 5px;
+  padding: 18px 35px;
+  border: none;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  margin-right: 30px;
+  height: 64px;
+}
+
+/* Banner styles */
+.banner {
+  display: flex;
+  margin-left: 200px;
+  align-items: center;
+}
+
+.banner-title {
+  color: #181818;
+  font-weight: 700;
+  font-size: 85px;
+  margin-bottom: 20px;
+}
+
+.banner-subtitle {
+  color: #474747;
+  font-weight: 600;
+  font-size: 45px;
+  margin-bottom: 5px;
+}
+
+p {
+  color: #757575;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.contact-btn {
+
+  width: 160px;
+  height: 64px;
+  border: 1px solid#FD6E0A;
+
+}
+
+/* Image contact button */
+.d {
+  width: 24px;
+  height: 24px;
+  text-align: center;
+}
+
+/* header background color developer set */
+.header {
+  background: #FFF8F3;
+  background-image: url("../images/header_bg.png"), url("../images/developer.png");
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
+
+/* main section */
+main {
+  background: #FFF8F3;
+  border-radius: 10px;
+  width: 1140px;
+  height: 550px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* about section style */
+.about {
+  margin-top: 130px;
+}
+
+.section-title {
+  padding-top: 137px;
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+  color: #181818;
+}
+
+.section-description {
+  margin: 30PX 156PX;
+  color: #757575;
+  font-weight: 400;
+  font-size: 18px;
+}
+.about-info-container{
+  display: flex;
+  
+  /*  */
+  justify-content: space-around;
+}
+.about-info{
+  font-weight: 400;
+  font-size: 20px;
+  color: #757575;
+}
+.about .info-title{
+  font-size: 20px;
+  color: #757575;
+}
+.about .info-description{
+  font-size: 20px;
+  font-weight:700px ;
+  color: #474747;
+}
